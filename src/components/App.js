@@ -1,9 +1,11 @@
 import React from 'react'
 
+import Contador from './Contador'
 
 export default class App extends React.Component {
     render() {
-        console.log('teste')
-        return <h1>React</h1>
+        return (
+            <Contador />
+        )
     }
 }
